@@ -1,16 +1,64 @@
-# React + Vite
+# MUI Responsive Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fully responsive user interface built using **React** and **Material UI (MUI)**.  
+The project demonstrates responsive layouts, dashboard design, admin panel structure, and light/dark theme switching.  
+It is version-controlled using **GitHub** and deployed on **Netlify**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+🔗 https://frabjous-macaron-7da4d4.netlify.app/ 
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive UI using **Material UI Grid & breakpoints**
+- Professional **Dashboard layout** with sidebar and top bar
+- **Admin Panel** with card-based layout
+- Light / Dark theme switching using **ThemeProvider**
+- Clean and modular component structure
+- Fully deployed on **Netlify**
+- GitHub-based CI/CD workflow
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React (Vite)
+- **UI Library:** Material UI (MUI v5)
+- **Styling Engine:** Emotion
+- **Version Control:** Git & GitHub
+- **Deployment:** Netlify
+
+---
+
+## 📂 Project Structure
+mui-responsive-ui/
+├── src/
+│   ├── components/
+│   │   ├── Dashboard.jsx
+│   │   ├── AdminPanel.jsx
+│   │   └── LandingPage.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── theme.js
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+---
+
+## 👤 Author
+
+**Gayan Benipal**  
+🔗 GitHub: https://github.com/thatcoderchic  
+📧 Email: gayanbenipal@gmail.com
+
+---
+
+## 📄 License
+
+This project is created for **educational purposes**.
